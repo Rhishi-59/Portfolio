@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+   
+    background-image: linear-gradient(#4839ae, black);
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    background-color: burlywood;
+    padding: 10px;
+    position: sticky;
+    top:0px;
+    left:0px;
+    right:0px;
+}
+
+a {
+    margin: 10px;
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.profile {
+    height: 100%;
+    width: 100%;
+    
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.photo {
+    height: 150px;
+    width: 150px;
+    background-image: url('https://www.pngkey.com/png/detail/910-9107433_goku-feliz-png-goku-tournament-of-power.png');
+    background-size: cover;
+    border-radius: 50%;
+
+}
+
+.about{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    color: white;
+   
+
+}
+
+.skills{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    
+}
+
+.skill{
+    height: 100px;
+    width: 100px;
+    border-radius: 3px;
+    background-color: cadetblue;
+}
+
+.html{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1024px-HTML5_logo_and_wordmark.svg.png');
+    background-size: cover;
+}
+
+.css{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvyarc5ql5Qb0aUtE9MLaAapWxWpH8kXp0GA&s');
+    background-size: cover;
+}
+
+.js{
+    background-image: url('https://static.vecteezy.com/system/resources/previews/027/127/463/non_2x/javascript-logo-javascript-icon-transparent-free-png.png');
+    background-size: cover;
+}
+
+#h4skills{
+    text-align: center;
+    background-color:beige;
+}
+
+#h2contact{
+    text-align: center;
+    background-color: beige
+
+}
+
+.contact{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.insta{
+    height: 65px;
+    width: 65px;
+    background-image: url('https://i.pinimg.com/474x/e0/79/77/e0797764348fb0c3ad94914e046f6b5a.jpg');
+    background-size: cover;
+    border-radius: 5%;
+}
+
+.linked{
+    height: 65px;
+    width: 65px;
+    background-image: url('https://thumbs.dreamstime.com/b/square-linkedin-logo-isolated-white-background-328635272.jpg');
+    background-size: cover;
+    border-radius: 5%;
+}
+
+.git{
+    height: 65px;
+    width: 65px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/1200px-GitHub_Invertocat_Logo.svg.png');
+    background-size: cover;
+    border-radius: 5%;
+}
+
+
+.watsap{
+    height: 65px;
+    width: 65px;
+    background-image: url('https://img.freepik.com/free-vector/whatsapp-icon-paint-style_23-2147918708.jpg?semt=ais_hybrid');
+    background-size: cover;
+    border-radius: 5%;
+}
